@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta chaset="UTF-8">
+        <title>Profile page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+            <div id="nav">
+                <h1>Roqaya Profile </h1>
+                <div class="pages">
+                    <a href="index.html" class="page">Home</a>
+                    <a href="#" class="page">About Us</a>
+                    <a href="contact_us.html" class="page">Contact Us</a>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="Profile-img.png" alt="Profile_image">
+                <h2>Introduction</h2>
+                <p>I am an ambitious graduated student with a major in Management Information Systems, and I am enthusiasticabout achieving a prosperous career.
+                     This is what promptedme to apply to join the UX/UI Front-End bootcamp,
+                     in order to take advantage of the lessons and skills I learned during my academic career, and
+                    to provide me with the opportunity to work within aprofessional work team.</p>
+            </div>
+
+            <div class="portfolio-box">
+                <div class="project">
+                    <img src="p1.png" alt="First project_img">
+                    <p id="p_name">Alahsa Heritage places</p>
+                </div>
+
+                <div class="project">
+                    <img src="p2.png" alt="First project_img">
+                    <p id="p_name">Weather website</p>
+                </div>
+
+                <div class="project">
+                    <img src="p3.png" alt="First project_img">
+                    <p id="p_name">To Do List website</p>
+                </div>
+
+
+                <div class="list">
+                    <div class="my_skills">
+                    <form id="form">
+                        <h2>My Skills</h2>
+                        <input type="text" class="input" id="input" placeholder="Enter your skills" autocomplete="off">
+                        <button class="btn" onclick="addTodo()"> Add Skill</button>
+                    </form>
+                    <ul class="todos" id="todos"></ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p>This site is created by: Roqaya Alwabari </p>
+                <p>UX/UI frint-end bootcamp</p>
+            </div>
+            
+            <script src="script.js"></script>
+    </body>
+</html>

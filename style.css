@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+#nav{
+background-color: #f9c1c2;
+width:101.2%;
+height: 8em;
+margin-left: -0.5em;
+margin-right: -0.5em;
+margin-top: -0.5em;
+}
+
+h1{
+    margin-left:1.8em;
+    padding-top:1.5em;
+    color: #372313;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pages{
+    margin-left:60em;
+    margin-top:-2em;
+}
+.page{
+    text-decoration: none;
+    font-size:20px;
+    height:40px;
+    margin-right: 35px;
+    color:#372313;
+}
+
+.profile{
+    margin-top:1em;
+    margin-left:1em;
+    margin-right:1em;
+}
+.profile img{
+    width:18em;
+    height:18em;
+}
+.profile h2{
+    margin-left:22em;
+    margin-top:-8em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:30px;
+    color:#372313;
+    letter-spacing: 4px;
+ }
+
+ .profile p{
+    margin-left: 18em;
+    margin-right: 8em;
+    margin-top:1em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+    color:#372313;
+    text-align: justify;
+ }
+ .portfolio-box{
+     width:100%;
+     height:38em;
+     background-color: #efddc5;
+     margin-top:6.5em;
+     display:flex;
+     border-style:none;
+     padding:0px auto;
+
+ }
+ .project{
+     background-color:  #f9c1c2;
+     width:20em;
+     height:15.8em;
+     margin-left:6em;
+     border:2px solid #372313;
+     margin-top:4em;
+    
+ }
+ .project img{
+     width:20em;
+     height:12em;
+     border-bottom:2px solid #372313;
+     
+ }
+ .project p{
+    width:20em;
+    height:12em;
+    font-size:25px;
+    padding-top:0.5em;
+    color:#372313;
+    font-weight: bold;
+    text-align: center;
+    margin-left:-3.5em;
+}
+
+.list{
+    width:100%;
+    height:20em;
+    position: absolute;
+    border: 2px solid white;
+    padding-top: 2em;
+}
+
+.list h2{
+    text-align: left;
+    padding-left:6em;
+    color:#372313;
+    margin-top:15em;
+}
+
+form {
+    max-width: 100%;
+    width: 321.1px;
+    padding-top:1em;
+    
+  }
+  
+  .input {
+    border: none;
+    color: #444;
+    font-size: 22px;
+    width: 15em;
+    margin-left:30em;
+    margin-top:-4em;
+  }
+  
+  .input::placeholder {
+    color: #d5d5d5;
+  }
+  
+  
+  .todos{
+    background-color: white;
+    padding: 0;
+    list-style-type: none;
+    margin-left:2em;
+    margin-top:1em;
+    width:20em;
+  }
+  
+  .todos li {
+    border-top: 1px solid #e5e5e5;
+    cursor: pointer;
+    font-size:18px;
+    
+   
+  }
+  
+  .todos li.completed {
+    color: #b6b6b6;
+    text-decoration: line-through;
+  }
+
+  .btn{
+    display:block;
+    margin-left: 76em;
+    margin-top:-3em;
+    font-size: 14px;
+    width: 8em;
+    height:3em;
+    background: #372313;
+    color: #f1eadb;
+  }
+
+  .footer{
+    background-color: #f9c1c2;
+    width:101.2%;
+    height: 4em;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    margin-top: -0.5em;
+  }
+  .footer p{
+      font-size:20px;
+      display:inline-block;
+      justify-content:space-between;
+      padding-left:12.5em;
+      text-align: center;
+      margin-top:1em;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color:#372313;
+
+  }
+
+  .contact-box{
+    width:60%;
+    height:24em;
+    background-color: #efddc5;
+    margin-top:5em;
+    margin-left:17em;
+    display:flex;
+    border-style:none;
+    padding:0px auto; 
+  }
+
+  .contact-box h1{
+      margin-left:8em;
+      margin-top:-0.8em;
+  }
+
+  .contact-box form{
+      margin-left:-20em;
+      margin-top:4em;
+      text-align: left;
+      justify-content: space-around;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color:#372313;
+      font-size:18px;
+
+  }
+  .contact-box label{
+    display:flex;
+  }
+
+  #textarea{
+      margin-left:22em;
+      margin-top:-10em;
+      font-size:16px;
+  }
+
+ #submit{
+    display:block;
+    margin-left: 2em;
+    margin-top:-3em;
+    font-size: 14px;
+    width: 8em;
+    height:3em;
+    background: #372313;
+    color: #f1eadb;
+ }
+
+
